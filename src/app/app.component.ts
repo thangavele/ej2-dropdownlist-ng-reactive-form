@@ -16,7 +16,7 @@ import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
 
      <div class="form-group">
         <label for="sports">Sports</label>
-        <ej-dropdownlist id='sports' [dataSource]='sportsData' [fields]='fields' formControlName="sport"></ej-dropdownlist>
+        <ej-dropdownlist id='sports' [dataSource]='sportsData' [fields]='fields' formControlName="sports"></ej-dropdownlist>
       </div>
 
      <div class="submitted-message">
@@ -49,7 +49,7 @@ export class AppComponent {
 
     ngOnInit() {
         this.myForm = this.formBuilder.group({
-            sport: new FormControl(this.hero.sports),
+            sports: new FormControl(this.hero.sports),
             name: new FormControl(this.hero.name),
         });
     }
