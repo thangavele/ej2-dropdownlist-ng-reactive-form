@@ -1,8 +1,9 @@
 {
   "name": "angular-io-example",
   "version": "1.0.0",
-  "private": true,
-  "description": "Example project from an angular.io guide.",
+	"description": "Essential JS 2",
+	"author": "Syncfusion Inc.",
+	"license": "SEE LICENSE IN license",
   "scripts": {
     "test:once": "karma start karma.conf.js --single-run",
     "build": "tsc -p src/",
@@ -23,8 +24,6 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "@angular/animations": "~4.3.1",
     "@angular/common": "~4.3.1",
@@ -39,7 +38,7 @@
     "@angular/router": "~4.3.1",
     "@angular/tsc-wrapped": "~4.3.1",
     "@angular/upgrade": "~4.3.1",
-    "@syncfusion/ej2-ng-dropdowns": "^1.0.19",
+    "@syncfusion/ej2-ng-dropdowns": "*",
     "angular-in-memory-web-api": "~0.4.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
