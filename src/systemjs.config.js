@@ -35,6 +35,8 @@
       '@syncfusion/ej2-base': 'npm:@syncfusion/ej2-base/dist/ej2-base.umd.min.js',
       '@syncfusion/ej2-data': 'npm:@syncfusion/ej2-data/dist/ej2-data.umd.min.js',
       '@syncfusion/ej2-inputs': 'npm:@syncfusion/ej2-inputs/dist/ej2-inputs.umd.min.js',
+      '@syncfusion/ej2-lists': 'npm:@syncfusion/ej2-lists/dist/ej2-lists.umd.min.js',
+      '@syncfusion/ej2-buttons': 'npm:@syncfusion/ej2-buttons/dist/ej2-buttons.umd.min.js',
       '@syncfusion/ej2-popups': 'npm:@syncfusion/ej2-popups/dist/ej2-popups.umd.min.js',
       "@syncfusion/ej2-dropdowns": 'npm:@syncfusion/ej2-dropdowns/dist/ej2-dropdowns.umd.min.js',
       '@syncfusion/ej2-ng-base': 'npm:@syncfusion/ej2-ng-base/dist/ej2-ng-base.umd.min.js',
